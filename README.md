@@ -39,7 +39,7 @@ HideButton.Text = "Stop"
 HideButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 HideButton.TextSize = 24
 
-local HeadSize = 20
+local HeadSize = 35
 local IsEffectActive = false 
 local IsTeamCheckEnabled = false 
 local effectConnection
@@ -67,7 +67,7 @@ local function ApplyEffect()
 				end
 
 				humanoidRootPart.Size = Vector3.new(HeadSize, HeadSize, HeadSize)
-				humanoidRootPart.Transparency = 0.7
+				humanoidRootPart.Transparency = 0.4
 				humanoidRootPart.BrickColor = BrickColor.new("Really blue")
 				humanoidRootPart.Material = Enum.Material.Neon
 				humanoidRootPart.CanCollide = false
